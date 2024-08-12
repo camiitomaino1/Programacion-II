@@ -16,7 +16,8 @@ h2{
 
 p{
     font-size: 14px;
-    
+    margin-top: 30px;
+    margin-bottom: 30px;
 }
 
 li{
@@ -25,6 +26,12 @@ li{
 }
 
 a{
-    font-style: bold;
+    font-weight:  bold;
 }
+
+li a{
+    color: orangered;
+    text-decoration: underline;
+}
+
 
