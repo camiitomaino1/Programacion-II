@@ -1,5 +1,6 @@
 *{
     font-family: sans-serif;
+    background-color: rgb(245, 245, 245);
 }
 
 h1{
@@ -23,6 +24,11 @@ p{
 li{
     font-family: monospace;
     font-size: 18px;
+    padding: 10px;
+}
+
+li:hover{
+    background-color: rgba(0, 0, 0, 0.1);
 }
 
 a{
@@ -34,4 +40,14 @@ li a{
     text-decoration: underline;
 }
 
+ul{
+    margin-left: 100px;
+    padding: 20px;
+    border: solid, 2px, blue;
+    width: 40%;
+    list-style-type: none;
+}
 
+.verde{
+    color: green;
+}
