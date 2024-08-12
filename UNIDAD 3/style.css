@@ -21,6 +21,14 @@ p{
     margin-bottom: 30px;
 }
 
+ul{
+    margin-left: 100px;
+    padding: 20px;
+    border: solid, 2px, blue;
+    width: 40%;
+    list-style-type: none;
+}
+
 li{
     font-family: monospace;
     font-size: 18px;
@@ -36,16 +44,8 @@ a{
 }
 
 li a{
-    color: orangered;
+    color: orange;
     text-decoration: underline;
-}
-
-ul{
-    margin-left: 100px;
-    padding: 20px;
-    border: solid, 2px, blue;
-    width: 40%;
-    list-style-type: none;
 }
 
 .verde{
