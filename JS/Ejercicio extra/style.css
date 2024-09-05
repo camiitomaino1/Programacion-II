@@ -22,6 +22,12 @@ html{
     margin: auto;
 }
 
+.contenido{
+    display: flex;
+    justify-content: center;
+    text-align: center;
+}
+
 .pie_de_pagina{
     background-color: #190521;
     color: #f7ecfb;
