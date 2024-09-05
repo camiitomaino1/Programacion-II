@@ -1,5 +1,3 @@
-//ejercicio 1
-alert("Hello world");
 
-//ejercicio 2
-document.write("Hello world");
+alert("Hello world");
+document.write("Hello World");
