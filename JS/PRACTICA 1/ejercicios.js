@@ -13,11 +13,68 @@ let num2 = Number(prompt("Ingrese el 2do numero", ""));
 document.write("El resultado de la suma es: ", num1 + num2);
 
 //Ejercicio 6
-var n1 = Number("Ingrese el primer numero");
-var n2 = Number("Ingrese el segundo numero");*/
+var n1 = Number(prompt("Ingrese el primer numero"));
+var n2 = Number(prompt("Ingrese el segundo numero"));
 
 if(n1 > n2) {
     alert("El numero mas grande es " + n1);
 } else {
     alert("El numero mas grande es " + n2);
 }
+
+//Ejercicio 7
+var n1 = Number(prompt("Ingrese el primer numero"));
+var n2 = Number(prompt("Ingrese el segundo numero"));
+var n3 = Number(prompt("Ingrese el 3er numero"));
+
+if(n1 > n2 && n1 > n3) {
+    document.write("El numero mas grande es el " + n1);
+} else if(n2 > n1 && n2 > n3){
+    document.write("El numero mas grande es el " + n2);
+} else {
+    document.write("El numero mas grande es el " + n3)
+}
+
+//Ejercicio 8
+var num = Number(prompt("Ingrese un numero"));
+
+if(num % 2 == 0) {
+    document.write("Si es divisible por 2");
+} else {
+    DocumentTimeline.write("No es divisible or 2");
+}
+
+//Ejercicio 9
+var frase = String(prompt("Ingrese una frase"));
+
+let contador = 0;
+
+for(let i = 0; i < frase.length; i++) {
+    if(frase[i] === "a" || frase[i] === "A") {
+        contador++
+    }
+}
+
+document.write(`La letra "a" aparece ${contador} veces en la frase.`);
+
+//Ejercicio 10 
+
+var frase
+
+//Ejercicio 13
+var n = Number(prompt("Ingrese un nmero"));
+
+if(n % 2 == 0 || n % 3 == 0 || n % 5 == 0 || n % 7 == 0) {
+    document.write(`El numero $(n) es divisible por uno o mas de estos numeros`);
+} else {
+    document.write("No es divisble por ninguno")
+}
+
+//Ejercicio 15
+var num = Number(prompt("ingrese un numero"));
+
+for(let i = 0; i < num; i++) {
+    if(num % i === 0) {
+        document.write(i + "</br>");
+    }
+}*/
