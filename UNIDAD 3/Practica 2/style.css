@@ -17,7 +17,7 @@ nav{
     justify-content: space-between;
     align-items: center;
     width: 100%;
-    background-color: #007700;
+    background-color: #6806ae;
     padding-left: 30px;
     padding-right: 30px;
     padding-top: 10px;
@@ -43,7 +43,7 @@ nav{
 }
 
 .nav-item:hover{
-    background-color: #04b104;
+    background-color: #950bf7;
 }
 
 .nav-item:hover a{
