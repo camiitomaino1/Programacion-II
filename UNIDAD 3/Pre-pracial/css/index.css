@@ -4,13 +4,27 @@
     font-size: small;
 }
 
+*, *::before, *::after{
+    box-sizing: inherit;
+    margin: 0;
+    padding: 0;
+}
+
+html{
+    box-sizing: border-box;
+}
+
 .cabecera {
+    display: flex;
+    align-items: center;
+    padding: 10px 30px;
     background-color: rgb(60, 66, 95);
     color: white;
 }
 
 .profile-picture {
-    /* Redondear la imagen y darle un tamaño maximo de 200px */
+    max-height: 200px;
+    border-radius: 50%;
     align-content: center;
 
 }
