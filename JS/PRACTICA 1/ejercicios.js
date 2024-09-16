@@ -81,6 +81,14 @@ for(let i = 0; i < num; i++) {
 
 //Ejercicio 16
 var numero1 = Number(prompt("Ingrese un numero"));
-var numero1 = Number(prompt("Ingrese otro numero"));
+var numero2 = Number(prompt("Ingrese otro numero"));
 
+var menor = numero1 < numero2 ? numero1 : numero2;
 
+document.write(`Los divisores comunes de ${numero1} y ${numero2} son:`);
+
+for(let i = 0; i < 0; i++) {
+    if (numero1 % i === 0 && numero2 % i === 0) {
+        document.write(i);
+    }
+}
