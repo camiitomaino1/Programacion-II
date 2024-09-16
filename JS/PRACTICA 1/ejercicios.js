@@ -80,3 +80,7 @@ for(let i = 0; i < num; i++) {
 }
 
 //Ejercicio 16
+var numero1 = Number(prompt("Ingrese un numero"));
+var numero1 = Number(prompt("Ingrese otro numero"));
+
+
