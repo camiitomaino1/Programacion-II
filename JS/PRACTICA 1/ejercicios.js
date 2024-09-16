@@ -1,5 +1,5 @@
 //ejercicio 1
-/*alert("Hello world");
+lert("Hello world");
 //ejercicio 2
 document.write("Hello World</br>");
 //ejercicio 3
@@ -77,4 +77,6 @@ for(let i = 0; i < num; i++) {
     if(num % i === 0) {
         document.write(i + "</br>");
     }
-}*/
+}
+
+//Ejercicio 16
