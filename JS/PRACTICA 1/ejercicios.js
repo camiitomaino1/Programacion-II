@@ -1,5 +1,5 @@
 //ejercicio 1
-lert("Hello world");
+/*lert("Hello world");
 //ejercicio 2
 document.write("Hello World</br>");
 //ejercicio 3
@@ -77,7 +77,7 @@ for(let i = 0; i < num; i++) {
     if(num % i === 0) {
         document.write(i + "</br>");
     }
-}
+}*/
 
 //Ejercicio 16
 var numero1 = Number(prompt("Ingrese un numero"));
@@ -87,7 +87,7 @@ var menor = numero1 < numero2 ? numero1 : numero2;
 
 document.write(`Los divisores comunes de ${numero1} y ${numero2} son:`);
 
-for(let i = 0; i < 0; i++) {
+for(let i = 0; i < menor; i++) {
     if (numero1 % i === 0 && numero2 % i === 0) {
         document.write(i);
     }
