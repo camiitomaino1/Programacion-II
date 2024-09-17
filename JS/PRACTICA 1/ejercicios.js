@@ -77,7 +77,7 @@ for(let i = 0; i < num; i++) {
     if(num % i === 0) {
         document.write(i + "</br>");
     }
-}*/
+}
 
 //Ejercicio 16
 var numero1 = Number(prompt("Ingrese un numero"));
@@ -85,10 +85,86 @@ var numero2 = Number(prompt("Ingrese otro numero"));
 
 var menor = numero1 < numero2 ? numero1 : numero2;
 
-document.write(`Los divisores comunes de ${numero1} y ${numero2} son:`);
+document.write(`Los divisores comunes de ${numero1} y ${numero2} son: </br>`);
 
-for(let i = 0; i < menor; i++) {
+for(let i = 1; i <= menor; i++) {
     if (numero1 % i === 0 && numero2 % i === 0) {
-        document.write(i);
+        document.write(i + "</br>");
     }
+}
+
+//Ejercocop 17
+
+var num = Number(prompt("Ingrese un numero"));
+
+var esPrimo = true;
+
+if(num <= 1) {
+    esPrimo = false;
+} 
+
+for(let i = 2; i < num; i++) {
+    if(num % i === 0) {
+        esPrimo = false;
+        break;
+    }
+}
+
+if(esPrimo) {
+    document.write(num + " es primo");
+} else {
+    document.write(num + " no es primo");
+}
+
+//Ejercocop 18
+
+var edad = Number(prompt("Ingree su edad"));
+
+var puedeConducir = true;
+
+if(edad < 18) {
+    puedeConducir = false;
+}
+
+if(puedeConducir) {
+    document.write("Usted pude conducir");
+} else {
+    document.write("Usted no puede conducir");
+}*/
+
+//Ejercicio 19
+var nota = Number(prompt("ngrese una nota"))
+
+switch(nota) {
+    case 0: 
+    case 1: 
+    case 2:
+    case 3: 
+        document.write("Muy deficiente");
+        break;
+
+    case 4:
+    case 5:
+        document.write("Insuficiente");
+        break;
+
+    case 6:
+        document.write("Suficiente");
+        break;
+
+    case 7:
+        document.write("Bien");
+        break;
+
+    case 8:
+    case 9:
+        document.write("Notable");
+        break;
+
+    case 10:
+        document.write("Sobresaliente");
+        break;
+
+    default:
+        document.write("Nota Invalida");
 }
