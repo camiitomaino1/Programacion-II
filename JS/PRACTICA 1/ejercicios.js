@@ -70,6 +70,8 @@ if(n % 2 == 0 || n % 3 == 0 || n % 5 == 0 || n % 7 == 0) {
     document.write("No es divisble por ninguno")
 }
 
+//Ejercicio 14
+
 //Ejercicio 15
 var num = Number(prompt("ingrese un numero"));
 
