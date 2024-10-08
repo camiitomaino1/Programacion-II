@@ -5,4 +5,4 @@ function repetirMensaje(numero) {
     }
 }
 
-repetirMensaje(3);
+console.log(repetrMensaje());
